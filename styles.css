@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #000000, #d4af37);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px;
+}
+header {
+    background-color: #000000;
+    color: #d4af37;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+.timezone-selectors {
+    margin-top: 10px;
+}
+select {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #d4af37;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+main {
+    margin-top: 20px;
+}
+.clock-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.clock-face {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ffffff, #d1d1d1);
+    border: 10px solid #d4af37;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.clock-time {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
